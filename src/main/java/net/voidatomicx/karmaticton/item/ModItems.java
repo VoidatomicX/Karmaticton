@@ -17,7 +17,7 @@ public class ModItems {
 
     public static final Item DIMOND_SCYTHE = register("dimond_scythe", Item::new, new Item.Properties().sword(ToolMaterial.DIAMOND, 3.0F, -2.4F));
 
-    public static final Item KARMATICTON_SCYTHE = register("karmaticton_scythe", KarmatictonScytheItem::new, new Item.Properties().sword(ToolMaterial.NETHERITE, 3.0F, -2.4F));
+    public static final Item KARMATICTON_SCYTHE = register("karmaticton_scythe", KarmatictonScytheItem::new, new Item.Properties().sword(ModToolMaterials.KARMATICTON, 3.0F, -2.4F));
 
 
 
