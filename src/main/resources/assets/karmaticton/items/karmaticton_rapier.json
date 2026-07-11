@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "karmaticton:item/hand_karmaticton_rapier"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "karmaticton:item/karmaticton_rapier"
+    }
+  }
+}

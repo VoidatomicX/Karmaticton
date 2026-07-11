@@ -9,6 +9,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
 import net.voidatomicx.karmaticton.Karmaticton;
+import net.voidatomicx.karmaticton.item.custom.KarmatictonBattleaxeItem;
+import net.voidatomicx.karmaticton.item.custom.KarmatictonRapierItem;
 import net.voidatomicx.karmaticton.item.custom.KarmatictonScytheItem;
 
 import java.util.function.Function;
@@ -18,6 +20,10 @@ public class ModItems {
     public static final Item DIMOND_SCYTHE = register("dimond_scythe", Item::new, new Item.Properties().sword(ToolMaterial.DIAMOND, 3.0F, -2.4F));
 
     public static final Item KARMATICTON_SCYTHE = register("karmaticton_scythe", KarmatictonScytheItem::new, new Item.Properties().sword(ModToolMaterials.KARMATICTON, 3.0F, -2.4F));
+
+    public static final Item KARMATICTON_BATTLEAXE = register("karmaticton_battleaxe", KarmatictonBattleaxeItem::new, new Item.Properties().sword(ModToolMaterials.KARMATICTON, 5.0F, -3.1F));
+
+    public static final Item KARMATICTON_RAPIER = register("karmaticton_rapier", KarmatictonRapierItem::new, new Item.Properties().sword(ModToolMaterials.KARMATICTON, 1.0F, -1F));
 
 
 
