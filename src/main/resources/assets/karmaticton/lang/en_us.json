@@ -1,5 +1,8 @@
 {
   "item.karmaticton.karmaticton_scythe": "Karmatic Scythe",
   "item.karmaticton.karmaticton_battleaxe": "Karmatic Battleaxe",
-  "item.karmaticton.karmaticton_rapier": "Karmatic Rapier"
+  "item.karmaticton.karmaticton_rapier": "Karmatic Rapier",
+  "item.karmaticton.karmaticton_ingot": "Karmatic Ingot",
+
+  "block.karmaticton.karmaticton_block": "Karmatic Block"
 }

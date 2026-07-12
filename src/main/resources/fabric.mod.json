@@ -20,6 +20,13 @@
 		],
 		"fabric-datagen": [
 			"net.voidatomicx.karmaticton.KarmatictonDataGenerator"
+		],
+		"cardinal-components-world": [
+			"net.voidatomicx.karmaticton.api.ModComponents"
+
+		],
+		"client": [
+			"net.voidatomicx.karmaticton.KarmatictonClient"
 		]
 	},
 	"mixins": [
@@ -30,5 +37,12 @@
 		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"karmaticton:rapier",
+			"karmaticton:sonic_boom",
+			"karmaticton:sonic_boom_queue"
+		]
 	}
 }
